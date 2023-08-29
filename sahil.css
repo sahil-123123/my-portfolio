@@ -1,0 +1,161 @@
+body{
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.myname{
+	font-size: 30px;
+	font-family: Times New Roman;
+	font-weight: bolder;
+	color: red;
+}
+.mymenu{
+	font-size: 20px;
+	color: red;
+	font-weight: bolder;
+}
+.mymenu:hover{
+	color: cyan;
+	transform:scale(1.1);
+}
+.navbar{
+	position:fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	z-index: 1;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.maindiv{
+	width: 100%;
+	position: absolute;
+	top: 0px;
+}
+.dv{
+	width: 400px;
+/*	padding-top: 200px;*/
+/*	border: 2px solid red;*/
+}
+.home{
+	height: 800px;
+	width: 100%;
+	padding-top: 55px;
+	background-image: url("https://img.freepik.com/premium-vector/male-avatar-icon-unknown-anonymous-person-default-avatar-profile-icon-social-media-user-business-man-man-profile-silhouette-isolated-white-background-vector-illustration_735449-122.jpg");
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position:center right;
+}
+html{
+	scroll-behavior: smooth;
+}
+.homeinfo{
+	margin-top: 15%;
+	margin-left: 15%;
+}
+.info{
+	font-size: 35px;
+	color: #7d631a;
+/*	font-weight: bolder;*/
+}
+.infoname{
+	margin-top: 15%;
+	font-size: 55px;
+	font-family:Algerian;
+	font-weight: bolder;
+	color: red ;
+}
+.infodev{
+	font-size: 25px;
+	color:  #7d631a;
+	font-weight: bolder;
+}
+.btn{
+	margin: 0px;
+}
+.btn button{
+		height: 30px;
+		width: 80px;
+		border: none;
+		background-color: orange;
+		color: white;
+		font-size: 16px;
+		font-weight: bolder;
+		border-radius: 5px;
+		box-shadow: 2px 2px gray;
+}
+
+.about{
+	height: 500px;
+	width: 100%;
+	margin-top: 0%;
+}
+.sectionheading{
+	color: Red;
+	font-family:Times New Roman;
+	padding-top: 100px;
+	font-size: 30px;
+	font-weight: bolder;
+}
+.tabledv{
+	margin-top: 5%;
+/*	margin: 10px;*/
+	text-align: center;
+}
+.myimg{
+	height: 300px;
+	width: 300px;
+	margin: 20px;
+}
+.carobj{
+	text-align: justify;
+	text-indent: 8%;
+	color:red;
+	font-family:Times New Roman;
+	font-weight: bolder;
+	font-size: 20px;
+}
+.skilss{
+	margin-top: 8%;
+	text-align: center;
+}
+.skill{
+	height: 700px;
+	width: 100%;
+	margin-top: 0%;
+}
+h5{
+	margin-top: -80px;
+}
+.skilltb {
+	text-align: center;
+	color: red;
+	font-family:Times New Romamn;
+	font-size: 23px;
+	font-weight: bolder;
+}
+.techskill{
+	text-align: center;
+	color: royalblue;
+	letter-spacing: 2px;
+	word-spacing: 4px;
+	font-family:Times New Roman;
+	font-size: 15px;
+	font-weight: bolder;
+}
+
+.projects{
+	height: 600px;
+	width: 100%;
+}
+.card{
+	margin: 2%;
+	height: 500px;
+}
+.card-title{
+	padding-top: 15%;
+}
+.contact{
+	height: 700px;
+	width: 100%;
+}
